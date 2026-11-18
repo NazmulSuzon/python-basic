@@ -19,5 +19,11 @@ print(course.title())
 print(course.strip())
 # strip() method removes any whitespace from the beginning or the end of a string
 
-# print(course.find("Python"))
-# print(course.replace("Python", "Java"))
+print(course.find("Python"))
+print(course.replace("Python", "Java"))
+
+# returns True if the string is found in the course variable
+print("Python" in course)
+
+# returns True if the string is not found in the course variable
+print("Python" not in course)
